@@ -1,0 +1,31 @@
+/*************************************************************/
+.logo { margin: 27px 0; background-color: #38a9e3; padding: 25px 40px; }
+.logo a { color: white; }
+.logo a h1 { text-transform: uppercase; font-size: 30px; margin: 0; font-weight: 800; }
+.logo span { color: #bee3f6; font-size: 13px; }
+.my-container{width: 900px;float: left;margin-left: 330px;margin-top: 10px;}
+ul{list-style: none;padding: 0;margin: 0;}
+ul li{display: inline-block;padding: 10px;background: #38a9e3;text-align: center;cursor: pointer;border-radius: 7px}
+ul li.inactive{background: #eee;}
+.my-container div{margin-top: 1px;background: #6B6C70;padding: 10px;min-height: 300px;border-radius: 10px;overflow: hidden}
+.my-container div:not(:first-of-type){display: none;}
+.btn-file{width:500px;height: 30px;background: #7b7b7b}
+.addInputs{margin-left: 50px;border: 0;background:#7d7d7d;color:#fff}
+.selectStars{width: 250px;border-radius: 5px;margin-top: 10px;margin-left: 50px;height: 40px;display:inline;border: 0;color:#ccc;background:#7d7d7d}
+#imageChooser{display: inline-block;padding: 0;color:#ccc; }
+.desc{margin-left: 50px;width: 558px;min-height: 200px;margin-top: 10px;background:#7d7d7d;border: 0;color:#fff}
+.sendHotelData{width:558px;margin-left: 50px}
+.travelDate{margin-left: 50px;border: 0;background:#7d7d7d;width: 251px;color:#ccc;}
+#tab2-content table,#tab3-content table{margin-left:50px; }
+#tab2-content table tr,#tab3-content table tr{margin: 0;margin-top: 10px;line-height: 30px;}
+#tab2-content table td,#tab3-content table td{width: 310px;margin: 0;margin-top: 10px;}
+.masterLeft{float: left; width: 23%; height: 100%; position: fixed; background-color: #495054; color: white;font-size: 20px;margin: 0;padding: 0}
+.offerName{width: 558px;}
+.offerPrice{margin-top: 10px}
+.selectHotel{width: 558px;border-radius: 5px;margin-top: 10px;margin-left: 50px;height: 40px;display:inline;border: 0;color:#ccc;background:#7d7d7d}
+#enterPlaces{margin-left: 50px;font-weight: bold;margin-top: 0}
+.updateHotelSection{margin-left: 330px;}
+.hotDescUpdate{margin-left: 50px;width: 558px;min-height: 300px;margin-top: 10px;background:#7d7d7d;border: 0;color:#fff}
+.updateTravelRight{margin-left: 330px}
+.yArea{margin-top: 0;}
+.updateOfferRight{margin-left: 330px;}

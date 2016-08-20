@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Update travel</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="shortcut icon" href="images/tabIcon.png"/>
+        <link rel="stylesheet" href="css/templatemo_style.css"/>
+        <link rel="stylesheet" href="css/styleAdmin.css"/>
+    </head>
+    <body>
+        <div class="masterLeft">
+            <div class="logo">
+                <a href="index.html"><h1>S a i f</h1></a>
+                <span>Tourism company</span>
+            </div> 
+        </div>
+        <div class="updateTravelRight">
+            <p class="lead" style="margin-bottom:5px"><span style="color:#38a9e3;margin-left:50px;margin-bottom:0">Edit travel's data</span></p>
+            <form name="addTravel" action="c_addTravel" method="post">
+                <input type="text" name="travelTitle" required="required" class="input-lg addInputs" placeholder="enter travel title">
+                <input type="text" name="travelPrice" required="required" class="input-lg addInputs" placeholder="enter travel price"><br>
+                <table style="margin-left:50px"><tr style="font-weight: bold;"><td style="width:305px;">Start date</td><td>End date</td></tr>                       </table>
+                <input type="date" name="travelStart" required="required" class="input-lg travelDate">
+                <input type="date" name="travelEnd" required="required" class="input-lg travelDate"><br><br>
+                <p id="enterPlaces">Enter places to visit ...at least one place</p>
+                <input type="text" name="travelPlace1" required="required" class="input-lg addInputs" placeholder="enter first place">
+                <input type="text" name="travelPlace2" class="input-lg addInputs" placeholder="enter second place"><br><br>
+                <input type="text" name="travelPlace3" class="input-lg addInputs" placeholder="enter third place">
+                <input type="text" name="travelPlace4" class="input-lg addInputs" placeholder="enter forth place"><br><br>
+                <textarea class="desc input-lg yArea" placeholder="enter travel description" required  name="travelDescription"></textarea><br>
+                <span style="margin-left:50px;color:#ccc">upload image <input type="file" class="input-lg" id="imageChooser"></span><br>
+                <input type="submit" class="btn btn-primary sendHotelData" value="S A V E">
+            </form>
+        </div>
+    </body>
+</html>

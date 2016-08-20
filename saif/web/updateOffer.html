@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Update offer</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="shortcut icon" href="images/tabIcon.png"/>
+        <link rel="stylesheet" href="css/templatemo_style.css"/>
+        <link rel="stylesheet" href="css/styleAdmin.css"/>
+    </head>
+    <body>
+        <div class="masterLeft">
+            <div class="logo">
+                <a href="index.html"><h1>S a i f</h1></a>
+                <span>Tourism company</span>
+            </div> 
+        </div>
+        <div class="updateOfferRight">
+            <p class="lead" style="margin-bottom:5px"><span style="color:#38a9e3;margin-left:50px;margin-bottom:0">Edit offer's data</span></p>
+            <form name="addOffer" action="c_addOffer" method="post">
+                <input type="text" name="offerTitle" required="required" class="input-lg addInputs offerName" placeholder="enter offer title"><br>
+                <input type="text" name="priceBefore" required="required" class="input-lg addInputs offerPrice"
+                       placeholder="enter normal price">
+                <input type="text" name="priceAfter" required="required" class="input-lg addInputs offerPrice"
+                       placeholder="enter offer price">
+                <table style="margin-left:50px"><tr style="font-weight: bold;"><td style="width:305px;">Start date</td><td>End date</td></tr>                       </table>
+                <input type="date" name="offerStart" required="required" class="input-lg travelDate">
+                <input type="date" name="offerlEnd" required="required" class="input-lg travelDate">
+                <textarea class="desc input-lg" placeholder="enter offer description" name="description" required></textarea><br>
+                <span style="margin-left:50px;color:#ccc">upload image <input type="file" class="input-lg" id="imageChooser"></span><br>
+                <input type="submit" class="btn btn-primary sendHotelData" value="S A V E">
+            </form>
+        </div>
+    </body>
+</html>
